@@ -67,7 +67,7 @@ pageNavi.show=function(f,e,a){
 		b+='<a href="'+f[1]+'">'+pageNaviConf.firstText+"</a>"
 	}
 	if(e>1){
-		b+='<a href="'+f[e-1]+'" class='previous-text'>'+pageNaviConf.prevText+"</a>"
+		b+='<a href="'+f[e-1]+'">'+pageNaviConf.prevText+"</a>"
 	}
 	for(i=c;i<=endPage;++i){
 		if(i==e){
@@ -77,7 +77,7 @@ pageNavi.show=function(f,e,a){
 		}
 	}
 	if(e<a){
-		b+='<a href="'+f[e+1]+'" class='next-text'>'+pageNaviConf.nextText+"</a>"
+		b+='<a href="'+f[e+1]+'">'+pageNaviConf.nextText+"</a>"
 	}
 	if(endPage<a){
 		b+='<a href="'+f[a]+'">'+pageNaviConf.lastText+"</a>"
