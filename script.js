@@ -3,7 +3,7 @@
   $.fn.menumaker = function(options) {
       
       var cssmenu = $(this), settings = $.extend({
-        title: "Menu",
+        title: "",
         format: "dropdown",
         breakpoint: 768,
         sticky: false
@@ -98,7 +98,7 @@ $(document).ready(function(){
 
 $(document).ready(function() {
   $("#cssmenu").menumaker({
-    title: "Menu",
+    title: "",
     format: "dropdown"
   });
 });
