@@ -61,7 +61,7 @@ pageNavi.show=function(f,e,a){
 		c=1
 	}
 	
-	var b='<span class="pages">Page '+e+' of '+a+"</span> ";
+	var b='Page '+e+' of '+a+" ";
 	
 	if(c>1){
 		b+='<span class="prev"><a href="'+f[1]+'">'+pageNaviConf.firstText+"</a></span>"
