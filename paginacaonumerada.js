@@ -64,10 +64,10 @@ pageNavi.show=function(f,e,a){
 	var b='<span class="pages">Page '+e+' of '+a+"</span> ";
 	
 	if(c>1){
-		b+='<a href="'+f[1]+'">'+pageNaviConf.firstText+"</a>"
+		b+='<span class="prev"><a href="'+f[1]+'">'+pageNaviConf.firstText+"</a></span>"
 	}
 	if(e>1){
-		b+='<a href="'+f[e-1]+'">'+pageNaviConf.prevText+"</a>"
+		b+='<span class="prev"><a href="'+f[e-1]+'">'+pageNaviConf.prevText+"</a></span>"
 	}
 	for(i=c;i<=endPage;++i){
 		if(i==e){
@@ -76,11 +76,11 @@ pageNavi.show=function(f,e,a){
 			b+='<a href="'+f[i]+'">'+i+"</a>"
 		}
 	}
-	if(e<a){
-		b+='<a href="'+f[e+1]+'">'+pageNaviConf.nextText+"</a>"
+	if(e<a){ 
+		b+='<span class="next"><a href="'+f[e+1]+'">'+pageNaviConf.nextText+"</a></span>"
 	}
 	if(endPage<a){
-		b+='<a href="'+f[a]+'">'+pageNaviConf.lastText+"</a>"
+		b+='<span class="next"><a href="'+f[a]+'">'+pageNaviConf.lastText+"</a></span>"
 	}
 	
 	document.write(b)
