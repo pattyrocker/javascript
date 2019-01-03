@@ -77,10 +77,10 @@ pageNavi.show=function(f,e,a){
 		}
 	}
 	if(e<a){
-		b+='<a href="'+f[e+1]+'"><span class="nextpage">'+pageNaviConf.nextText+"</span></a>"
+		b+='<a href="'+f[e+1]+'">'+pageNaviConf.nextText+"</a>"
 	}
 	if(endPage<a){
-		b+='<a href="'+f[a]+'"><span class="prevpage">'+pageNaviConf.lastText+"</span></a>"
+		b+='<a href="'+f[a]+'">'+pageNaviConf.lastText+"</a>"
 	}
 	
 	document.write(b)
