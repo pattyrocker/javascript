@@ -12,7 +12,7 @@
       return this.each(function() {
         submenu.find('li ul').parent().addClass('has-sub');
         if (settings.format != 'select') {
-          submenu.prepend('<div id="menu-button">' + settings.title + '</div>');
+          submenu.prepend('<div id="menu-button">Categorias</div>');
           $(this).find("#menu-button").on('click', function(){
             $(this).toggleClass('menu-opened');
             var mainmenu = $(this).next('ul');
