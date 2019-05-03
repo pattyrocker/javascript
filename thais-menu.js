@@ -2,17 +2,17 @@
 
   $.fn.menumaker = function(options) {
       
-      var submenu = $(this), settings = $.extend({
-        title: "",
+      var cssmenu = $(this), settings = $.extend({
+        title: "Menu",
         format: "dropdown",
         breakpoint: 800,
         sticky: false
       }, options);
 
       return this.each(function() {
-        submenu.find('li ul').parent().addClass('has-sub');
+        cssmenu.find('li ul').parent().addClass('has-sub');
         if (settings.format != 'select') {
-          submenu.prepend('<div id="menu-button">' + settings.title + '</div>');
+          cssmenu.prepend('<div id="menu-button">' + settings.title + '</div>');
           $(this).find("#menu-button").on('click', function(){
             $(this).toggleClass('menu-opened');
             var mainmenu = $(this).next('ul');
@@ -28,8 +28,8 @@
           });
 
           multiTg = function() {
-            submenu.find(".has-sub").prepend('<span class="submenu-button"></span>');
-            submenu.find('.submenu-button').on('click', function() {
+            cssmenu.find(".has-sub").prepend('<span class="submenu-button"></span>');
+            cssmenu.find('.submenu-button').on('click', function() {
               $(this).toggleClass('submenu-opened');
               if ($(this).siblings('ul').hasClass('open')) {
                 $(this).siblings('ul').removeClass('open').hide();
@@ -41,17 +41,17 @@
           };
 
           if (settings.format === 'multitoggle') multiTg();
-          else submenu.addClass('dropdown');
+          else cssmenu.addClass('dropdown');
         }
 
         else if (settings.format === 'select')
         {
-          submenu.append('<select style="width: 100%"/>').addClass('select-list');
-          var selectList = submenu.find('select');
+          cssmenu.append('<select style="width: 100%"/>').addClass('select-list');
+          var selectList = cssmenu.find('select');
           selectList.append('<option>' + settings.title + '</option>', {
                                                          "selected": "selected",
                                                          "value": ""});
-          submenu.find('a').each(function() {
+          cssmenu.find('a').each(function() {
             var element = $(this), indentation = "";
             for (i = 1; i < element.parents('ul').length; i++)
             {
@@ -64,25 +64,25 @@
           });
         }
 
-        if (settings.sticky === true) submenu.css('position', 'fixed');
+        if (settings.sticky === true) cssmenu.css('position', 'fixed');
 
         resizeFix = function() {
           if ($(window).width() > settings.breakpoint) {
-            submenu.find('ul').show();
-            submenu.removeClass('small-screen');
+            cssmenu.find('ul').show();
+            cssmenu.removeClass('small-screen');
             if (settings.format === 'select') {
-              submenu.find('select').hide();
+              cssmenu.find('select').hide();
             }
             else {
-              submenu.find("#menu-button").removeClass("menu-opened");
+              cssmenu.find("#menu-button").removeClass("menu-opened");
             }
           }
 
-          if ($(window).width() <= settings.breakpoint && !submenu.hasClass("small-screen")) {
-            submenu.find('ul').hide().removeClass('open');
-            submenu.addClass('small-screen');
+          if ($(window).width() <= settings.breakpoint && !cssmenu.hasClass("small-screen")) {
+            cssmenu.find('ul').hide().removeClass('open');
+            cssmenu.addClass('small-screen');
             if (settings.format === 'select') {
-              submenu.find('select').show();
+              cssmenu.find('select').show();
             }
           }
         };
@@ -97,8 +97,8 @@
 $(document).ready(function(){
 
 $(document).ready(function() {
-  $("#submenu").menumaker({
-    title: "",
+  $("#cssmenu").menumaker({
+    title: "Menu",
     format: "dropdown"
   });
 });
