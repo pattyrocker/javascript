@@ -5,7 +5,7 @@
       var submenu = $(this), settings = $.extend({
         title: "",
         format: "dropdown",
-        breakpoint: 768,
+        breakpoint: 800,
         sticky: false
       }, options);
 
