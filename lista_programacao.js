@@ -10,7 +10,7 @@ var calenData = [
 },
 	{mes: "Agosto",	dia_n: "27", dia_s: "Terça",
      programacao: {
-	 	titulo: "Credenciamento",
+	 	titulo: "LALALA",
 		local: "Saguão C3",
 		palestrante: "Nome do Palestrante",
 		horario: "08:30",
@@ -19,7 +19,7 @@ var calenData = [
 },
 	{mes: "Agosto",	dia_n: "28", dia_s: "Quarta",
      programacao: {
-	 	titulo: "Credenciamento",
+	 	titulo: "Testando",
 		local: "Saguão C3",
 		palestrante: "Nome do Palestrante",
 		horario: "08:30",
