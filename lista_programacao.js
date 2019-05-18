@@ -1,7 +1,7 @@
 var calenData = [
 	{mes: "Agosto", dia_n: "26", dia_s: "Segunda",
      programacao: {
-	 	titulo: "Credenciamento",
+	 	titulo: "HELLO",
 		local: "Saguão C3",
 		palestrante: "Nome do Palestrante",
 		horario: "08:30",
