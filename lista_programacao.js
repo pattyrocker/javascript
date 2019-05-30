@@ -1,4 +1,3 @@
-var calenData = 
 	{
      programacao: {
 	 	titulo: "TESTE: Credenciamento",
