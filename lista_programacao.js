@@ -1,18 +1,13 @@
 {
-  "name":"John",
-  "age":30,
-  "cars": [
-    { 
-     "name":"Ford", 
-     "models":[ "Fiesta", "Focus", "Mustang" ] 
-    },
-    { 
-     "name":"BMW", 
-     "models":[ "320", "X3", "X5" ]
-    },
-    { 
-     "name":"Fiat", 
-     "models":[ "500", "Panda" ] 
+    "cars": {
+        "Nissan": [
+            {"model":"Sentra", "doors":4},
+            {"model":"Maxima", "doors":4},
+            {"model":"Skyline", "doors":2}
+        ],
+        "Ford": [
+            {"model":"Taurus", "doors":4},
+            {"model":"Escort", "doors":4}
+        ]
     }
-  ]
- } 
+}
