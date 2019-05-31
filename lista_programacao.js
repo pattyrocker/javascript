@@ -1,7 +1,5 @@
 [
   {
-  	"titulo":"Credenciamento",
-	"local": "Saguão C3",
 	"programacao":{ 
 		"titulo": "Credenciamento",
 		"local": "Saguão C3",
