@@ -3,16 +3,16 @@
 		"dia_m": "26",
 		"mes": "agosto",
 		"programacao": [{
-				"titulo": "Credenciamento",
+				"titulo": "Palestra 1",
 				"horario": "8:30",
 				"local": "Saguão C3",
 				"Palestrante": "Nome do Palestrante",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			},
 			{
-				"titulo": "Credenciamento",
-				"horario": "8:30",
-				"local": "Saguão C3",
+				"titulo": "Palestra 2",
+				"horario": "10:30",
+				"local": "Lab C3",
 				"Palestrante": "Nome do Palestrante",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			}
