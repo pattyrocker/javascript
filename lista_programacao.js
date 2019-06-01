@@ -1,13 +1,10 @@
 {
-    "cars": {
-        "Nissan": [
-            {"model":"Sentra", "doors":4},
-            {"model":"Maxima", "doors":4},
-            {"model":"Skyline", "doors":2}
-        ],
-        "Ford": [
-            {"model":"Taurus", "doors":4},
-            {"model":"Escort", "doors":4}
-        ]
-    }
+	"dia_s": "segunda",
+	"dia_m": "26",
+	"mes": "agosto",
+	"programacao": {
+		"titulo": "Credenciamento",
+		"horario": "8:30",
+		"local": "Saguão C3"
+	}
 }
