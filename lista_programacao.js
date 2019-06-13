@@ -4,10 +4,10 @@
 		"mes": "agosto",
 		"programacao": [
 			{
-				"titulo": "Palestra 1",
-				"horario": "8:30",
+				"titulo": "Credenciamento",
+				"horario": "8:00",
 				"local": "Saguão C3",
-				"Palestrante": "Nome do Palestrante",
+				"Palestrante": null,
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			}
 		]
