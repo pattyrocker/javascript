@@ -4,20 +4,6 @@
 		"mes": "agosto",
 		"programacao": [
 			{
-				"titulo": "Palestra NOVA (atualizou?)",
-				"horario": "8:30",
-				"local": "Saguão C3",
-				"Palestrante": "Nome do Palestrante",
-				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
-			},
-			{
-				"titulo": "Palestra 1",
-				"horario": "8:30",
-				"local": "Saguão C3",
-				"Palestrante": "Nome do Palestrante",
-				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
-			},
-			{
 				"titulo": "Palestra 1",
 				"horario": "8:30",
 				"local": "Saguão C3",
