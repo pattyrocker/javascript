@@ -1,5 +1,6 @@
 [{
-		"dia": "05/11",
+        "data": "29/01",
+        "dia": "quarta",
 		"programacao": [{
 				"titulo": "Credenciamento",
 				"horario": "8:00",
@@ -66,7 +67,8 @@
 		]
 	},
 		{
-		"dia": "06/11",
+            "data": "30/01",
+            "dia": "quinta",
 		"programacao": [
 		    {
 				"titulo": "Minicursos",
@@ -134,7 +136,8 @@
 		]
 	},
 	{
-		"dia": "07/11",
+        "data": "31/01",
+        "dia": "sexta",
 		"programacao": [{
 				"titulo": "Cerimonia de abertura",
 				"horario": "8:30",
@@ -152,7 +155,8 @@
 		]
 	},
 	{
-		"dia": "08/11",
+        "data": "01/02",
+        "dia": "sábado",
 		"programacao": [{
 				"titulo": "Cerimonia de abertura 3",
 				"horario": "8:30",
@@ -170,7 +174,8 @@
 		]
 	},
 	{
-		"dia": "09/11",
+        "data": "02/02",
+        "dia": "domingo",
 		"programacao": [{
 				"titulo": "Cerimonia de abertura 5",
 				"horario": "8:30",
