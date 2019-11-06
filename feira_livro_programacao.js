@@ -3,19 +3,30 @@
         "data": "29/01",
         "dia": "quarta",
 		"programacao": [{
-				"titulo": "Credenciamento",
-				"horario": "8:00",
-				"local": "Saguão C3",
-				"Palestrante": null,
+				"titulo": "Cerimonial de Abertura / Espetáculo Cênico Musical ''Tekoá, Lugar Onde Se É'' - Movimento Coral da FURG ",
+				"horario": "21:30",
+				"local": "Arena Cultural",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			},
 			{
-				"titulo": "Cerimônia de Abertura",
-				"horario": "9:30",
-				"local": "Auditório C3",
-				"Palestrante": null,
+				"titulo": "Abertura da Exposição '' dia 36: ainda há tempo'' Victória Salomão. Co-realização SECULT/CMC ",
+				"horario": "20:00",
+				"local": "Espaço Literário",
+				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
+			},
+			{
+				"titulo": "Apresentação de Circo - Semente Olímpica",
+				"horario": "20:00",
+				"local": "Rua das Crianças",
+				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
+			},
+			{
+				"titulo": "Contação de História com Fantoches - CAIC",
+				"horario": "21:00",
+				"local": "Rua das Crianças",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			}
+			
 		]
 	},
 		{
@@ -27,15 +38,7 @@
 				"titulo": "Minicursos",
 				"horario": "8:00",
 				"local": "Local",
-				"Palestrante": "Nome do Palestrante",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
-			},
-			{
-				"titulo": "Coffe Break",
-				"horario": "9:30",
-				"local": null,
-				"Palestrante": null,
-				"descricao": null
 			}
 		]
 	},
@@ -47,14 +50,12 @@
 				"titulo": "Cerimonia de abertura",
 				"horario": "8:30",
 				"local": "Saguão C3",
-				"Palestrante": "Nome do Palestrante",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			},
 			{
 				"titulo": "Cerimonia de abertura 2",
 				"horario": "8:30",
 				"local": "Saguão C3",
-				"Palestrante": "Nome do Palestrante",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			}
 		]
@@ -67,14 +68,12 @@
 				"titulo": "Cerimonia de abertura 3",
 				"horario": "8:30",
 				"local": "Saguão C3",
-				"Palestrante": "Nome do Palestrante",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			},
 			{
 				"titulo": "Cerimonia de abertura 4",
 				"horario": "8:30",
 				"local": "Saguão C3",
-				"Palestrante": "Nome do Palestrante",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			}
 		]
@@ -87,14 +86,12 @@
 				"titulo": "Cerimonia de abertura 5",
 				"horario": "8:30",
 				"local": "Saguão C3",
-				"Palestrante": "Nome do Palestrante",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			},
 			{
 				"titulo": "Cerimonia de abertura 6",
 				"horario": "8:30",
 				"local": "Saguão C3",
-				"Palestrante": "Nome do Palestrante",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			}
 		]
@@ -107,14 +104,12 @@
 				"titulo": "Cerimonia de abertura 5",
 				"horario": "8:30",
 				"local": "Saguão C3",
-				"Palestrante": "Nome do Palestrante",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			},
 			{
 				"titulo": "Cerimonia de abertura 6",
 				"horario": "8:30",
 				"local": "Saguão C3",
-				"Palestrante": "Nome do Palestrante",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			}
 		]
@@ -126,14 +121,12 @@
 				"titulo": "Cerimonia de abertura 5",
 				"horario": "8:30",
 				"local": "Saguão C3",
-				"Palestrante": "Nome do Palestrante",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			},
 			{
 				"titulo": "Cerimonia de abertura 6",
 				"horario": "8:30",
 				"local": "Saguão C3",
-				"Palestrante": "Nome do Palestrante",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			}
 		]
@@ -146,14 +139,12 @@
 				"titulo": "Cerimonia de abertura 5",
 				"horario": "8:30",
 				"local": "Saguão C3",
-				"Palestrante": "Nome do Palestrante",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			},
 			{
 				"titulo": "Cerimonia de abertura 6",
 				"horario": "8:30",
 				"local": "Saguão C3",
-				"Palestrante": "Nome do Palestrante",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			}
 		]
@@ -166,14 +157,12 @@
 				"titulo": "Cerimonia de abertura 5",
 				"horario": "8:30",
 				"local": "Saguão C3",
-				"Palestrante": "Nome do Palestrante",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			},
 			{
 				"titulo": "Cerimonia de abertura 6",
 				"horario": "8:30",
 				"local": "Saguão C3",
-				"Palestrante": "Nome do Palestrante",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			}
 		]
@@ -186,14 +175,12 @@
 				"titulo": "Cerimonia de abertura 5",
 				"horario": "8:30",
 				"local": "Saguão C3",
-				"Palestrante": "Nome do Palestrante",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			},
 			{
 				"titulo": "Cerimonia de abertura 6",
 				"horario": "8:30",
 				"local": "Saguão C3",
-				"Palestrante": "Nome do Palestrante",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			}
 		]
@@ -206,14 +193,12 @@
 				"titulo": "Cerimonia de abertura 5",
 				"horario": "8:30",
 				"local": "Saguão C3",
-				"Palestrante": "Nome do Palestrante",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			},
 			{
 				"titulo": "Cerimonia de abertura 6",
 				"horario": "8:30",
 				"local": "Saguão C3",
-				"Palestrante": "Nome do Palestrante",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			}
 		]
@@ -226,14 +211,12 @@
 				"titulo": "Cerimonia de abertura 5",
 				"horario": "8:30",
 				"local": "Saguão C3",
-				"Palestrante": "Nome do Palestrante",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			},
 			{
 				"titulo": "Cerimonia de abertura 6",
 				"horario": "8:30",
 				"local": "Saguão C3",
-				"Palestrante": "Nome do Palestrante",
 				"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque sed lectus quis porttitor. Nulla facilisis feugiat libero id accumsan. Nam imperdiet fringilla porttitor. In eget bibendum leo. Quisque quis."
 			}
 		]
